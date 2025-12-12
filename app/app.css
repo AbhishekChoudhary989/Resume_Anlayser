@@ -14,7 +14,7 @@
   --color-badge-yellow: #fceed8;
 
   --color-badge-green-text: #254d4a;
-  --color-badge-red-text: #752522;
+  --color-badge-red-text: #636363;
   --color-badge-yellow-text: #73321b;
 }
 
@@ -27,7 +27,7 @@ main {
   @apply min-h-screen pt-10;
 }
 h1 {
-  @apply max-sm:text-[3rem] text-6xl  text-gradient leading-tight xl:tracking-[-2px] font-semibold;
+  @apply max-sm:text-[3rem] text-4xl  text-gradient leading-tight xl:tracking-[-2px] font-semibold;
 }
 
 h2 {
@@ -129,7 +129,7 @@ form {
 }
 
 @utility primary-gradient {
-  background: linear-gradient(to bottom, #8e98ff, #606beb);
+  background: linear-gradient(to bottom, #8e98ff, #c1c1c1);
   box-shadow: 0px 74px 21px 0px #6678ef00;
 }
 
